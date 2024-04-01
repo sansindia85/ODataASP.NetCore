@@ -1,0 +1,25 @@
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+  <edmx:DataServices>
+    <Schema Namespace="BasicCrud.Models" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+      <EntityType Name="Customer">
+        <Key>
+          <PropertyRef Name="Id" />
+        </Key>
+        <Property Name="Id" Type="Edm.Int32" Nullable="false" />
+        <Property Name="Name" Type="Edm.String" Nullable="false" />
+        <Property Name="CustomerType" Type="BasicCrud.Models.CustomerType" Nullable="false" />
+        <Property Name="CreditLimit" Type="Edm.Decimal" Nullable="false" Scale="Variable" />
+        <Property Name="CustomerSince" Type="Edm.DateTimeOffset" Nullable="false" />
+      </EntityType>
+      <EnumType Name="CustomerType">
+        <Member Name="Retail" Value="0" />
+        <Member Name="Wholesale" Value="1" />
+      </EnumType>
+    </Schema>
+    <Schema Namespace="Default" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+      <EntityContainer Name="Container">
+        <EntitySet Name="Customers" EntityType="BasicCrud.Models.Customer" />
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

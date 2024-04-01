@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataClientExample", "ODataClientExample\ODataClientExample.csproj", "{8EC7D496-1ACC-4251-AD7D-1BEDFC9D598E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EC7D496-1ACC-4251-AD7D-1BEDFC9D598E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC7D496-1ACC-4251-AD7D-1BEDFC9D598E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC7D496-1ACC-4251-AD7D-1BEDFC9D598E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC7D496-1ACC-4251-AD7D-1BEDFC9D598E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC576B47-A82C-4D0A-B47D-B42AB0625B5D}
+	EndGlobalSection
+EndGlobal
